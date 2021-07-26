@@ -7,10 +7,10 @@ function App() {
   return (
     <Router>
       <div>
-          <Nav />
-          <Switch>
-            <Route exact path="/" component={Portfolio} />
-          </Switch>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Portfolio} />
+        </Switch>
       </div>
     </Router>
   );
