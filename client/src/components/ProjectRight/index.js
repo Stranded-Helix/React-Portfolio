@@ -3,23 +3,22 @@ import icon from '../../assets/SilverHelix.png'
 import './style.css'
 
 
-export default function ProjectRight() {
+export default function ProjectRight({project}) {
 
     return (
-        <div class="card horizontal">
-          <div class="card-stacked blue-gradient">
-            <div class="card-content">
-              <h5>Global-Nibz</h5>
-              <p>Food and Recipie randomizer that selects 3 options from the same region using Edamam API, HTML, CSS,
-                and Javascript</p>
+        <div className="card horizontal">
+          <div className="card-stacked blue-gradient">
+            <div className="card-content">
+              <h5>{project.title}</h5>
+              <p>{project.description}</p>
             </div>
-            <div class="card-action">
-              <a href="https://doublelforce5.github.io/Global-Nibz/">Deployed App</a>
-              <a href="https://github.com/DoubleLForce5/Global-Nibz">Github</a>
+            <div className="card-action">
+              <a href={project.deployedLink}>Deployed App</a>
+              <a href={project.githubLink}>Github</a>
             </div>
           </div>
-          <div class="card-image">
-            <img src="./assets/GlobalNibzHomeImage.png"></img>
+          <div className="card-image">
+            <img src={project.image}></img>
           </div>
         </div>
     )

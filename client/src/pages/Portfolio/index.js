@@ -3,18 +3,25 @@ import About from '../../components/About';
 import ProjectHeader from '../../components/ProjectHeader';
 import ProjectLeft from '../../components/ProjectLeft';
 import ProjectRight from '../../components/ProjectRight';
+import {useProjects} from '../../components/ProjectContext/ProjectContext.js';
+import Contact from '../../components/Contact';
 
 
 
 export default function Portfolio() {
 
+    const projects = useProjects();
+
     return (
-        <div class="center">
-            <div class="col s6 m6 l6 xl6">
+        <div className="center">
+            <div className="col s6 m6 l6 xl6">
                 <About/>
                 <ProjectHeader/>
-                <ProjectLeft/>
-                <ProjectRight/>
+                <ProjectLeft project={projects[0]}/>
+                <ProjectRight project={projects[1]}/>
+                <ProjectLeft project={projects[2]}/>
+                <ProjectRight project={projects[3]}/>
+                <Contact/>
             </div>
         </div>
 

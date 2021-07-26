@@ -3,24 +3,23 @@ import icon from '../../assets/SilverHelix.png'
 import './style.css'
 
 
-export default function ProjectLeft() {
+export default function ProjectLeft({project}) {
 
     return (
-<div class="card horizontal">
-          <div class="card-image">
-            <img src="./assets/StolenCanvasHomeImage.png"></img>
-          </div>
-          <div class="card-stacked blue-gradient">
-            <div class="card-content">
-              <h5>Stolen Canvas</h5>
-              <p>Heroku hosted website simulating a e-commerce site selling great works of art using HTML, CSS,
-                express.js</p>
+        <div className="card horizontal">
+            <div className="card-image">
+                <img src={project.image}></img>
             </div>
-            <div class="card-action">
-              <a href="https://afternoon-ocean-89274.herokuapp.com/">Deployed App</a>
-              <a href="https://github.com/chancevaughn/Stolen-Canvas">Github</a>
+            <div className="card-stacked blue-gradient">
+                <div className="card-content">
+                    <h5>{project.title}</h5>
+                    <p>{project.description}</p>
+                </div>
+                <div className="card-action">
+                    <a href={project.deployedLink}>Deployed App</a>
+                    <a href={project.githubLink}>Github</a>
+                </div>
             </div>
-          </div>
         </div>
-            )
-        }
+    )
+}

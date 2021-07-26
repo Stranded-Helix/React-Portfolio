@@ -7,8 +7,8 @@ export default function NavBar() {
 
     return (
         <nav className="transparent-background">
-            <div className="nav-wrapper">
-                <a href="#" className="brand-logo logo-container">
+            <div className="nav-wrapper nav-size">
+                <a href="#" className="brand-logo logo-container logo-size">
                     <img className="logo-image" src={icon}></img>
                 </a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
