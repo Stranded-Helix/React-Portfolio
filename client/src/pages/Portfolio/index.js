@@ -21,6 +21,8 @@ export default function Portfolio() {
                 <ProjectRight project={projects[1]}/>
                 <ProjectLeft project={projects[2]}/>
                 <ProjectRight project={projects[3]}/>
+                <ProjectLeft project={projects[4]}/>
+                <ProjectRight project={projects[5]}/>
                 <Contact/>
             </div>
         </div>

@@ -11,7 +11,7 @@ export default function About() {
 
     return (
         <Row>
-          <Col s={spanner} m={spanner} l={spanner} xl={spanner}>
+          <Col xs={spanner} s={spanner} m={spanner} l={spanner} xl={spanner}>
             <Card className="blue-gradient">
               <Card.Img src={photo}/>
               <Card.Body className="color-neutral">
