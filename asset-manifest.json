@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React-Dashboard/static/css/main.905f8f33.chunk.css",
+    "main.js": "/React-Dashboard/static/js/main.74f67179.chunk.js",
+    "main.js.map": "/React-Dashboard/static/js/main.74f67179.chunk.js.map",
+    "runtime-main.js": "/React-Dashboard/static/js/runtime-main.b73fef20.js",
+    "runtime-main.js.map": "/React-Dashboard/static/js/runtime-main.b73fef20.js.map",
+    "static/css/2.25bb6d0f.chunk.css": "/React-Dashboard/static/css/2.25bb6d0f.chunk.css",
+    "static/js/2.b31829c7.chunk.js": "/React-Dashboard/static/js/2.b31829c7.chunk.js",
+    "static/js/2.b31829c7.chunk.js.map": "/React-Dashboard/static/js/2.b31829c7.chunk.js.map",
+    "index.html": "/React-Dashboard/index.html",
+    "precache-manifest.4712beeb821d4dd0193fa1d5a04e74af.js": "/React-Dashboard/precache-manifest.4712beeb821d4dd0193fa1d5a04e74af.js",
+    "service-worker.js": "/React-Dashboard/service-worker.js",
+    "static/css/2.25bb6d0f.chunk.css.map": "/React-Dashboard/static/css/2.25bb6d0f.chunk.css.map",
+    "static/css/main.905f8f33.chunk.css.map": "/React-Dashboard/static/css/main.905f8f33.chunk.css.map",
+    "static/js/2.b31829c7.chunk.js.LICENSE.txt": "/React-Dashboard/static/js/2.b31829c7.chunk.js.LICENSE.txt",
+    "static/media/Barcode-generator.png": "/React-Dashboard/static/media/Barcode-generator.7a9d3e71.png",
+    "static/media/BudgetTracker.png": "/React-Dashboard/static/media/BudgetTracker.a8a03c5c.png",
+    "static/media/G.Fite Resume - 2021.pdf": "/React-Dashboard/static/media/G.Fite Resume - 2021.4c2cab48.pdf",
+    "static/media/GlobalNibzHomeImage.png": "/React-Dashboard/static/media/GlobalNibzHomeImage.bde87ac5.png",
+    "static/media/Portfolio.jpg": "/React-Dashboard/static/media/Portfolio.4a54f7a4.jpg",
+    "static/media/SilverHelix.png": "/React-Dashboard/static/media/SilverHelix.89692d27.png",
+    "static/media/StolenCanvasHomeImage.png": "/React-Dashboard/static/media/StolenCanvasHomeImage.889c4771.png",
+    "static/media/TechBlogScreenshot.png": "/React-Dashboard/static/media/TechBlogScreenshot.d2321331.png",
+    "static/media/WeatherDashboard.png": "/React-Dashboard/static/media/WeatherDashboard.5754df32.png",
+    "static/media/WebsiteBackground.png": "/React-Dashboard/static/media/WebsiteBackground.cb1fcce0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b73fef20.js",
+    "static/css/2.25bb6d0f.chunk.css",
+    "static/js/2.b31829c7.chunk.js",
+    "static/css/main.905f8f33.chunk.css",
+    "static/js/main.74f67179.chunk.js"
+  ]
+}
