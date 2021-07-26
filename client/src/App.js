@@ -5,12 +5,18 @@ import Portfolio from "./pages/Portfolio";
 import {ProjectProvider} from './components/ProjectContext/ProjectContext.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
+import background from '../src/assets/WebsiteBackground.png'
 
 
 function App() {
   return (
     <Router>
-      <div style={{backgroundImage: 'url(/src/assets/WebsiteBackground.png)'}}>
+      <div style={
+        {backgroundImage: `url(${background})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        backgroundSize: 'cover',
+        color: '#CCC5B9'}}>
         <Nav />
         <Switch>
           <Container>

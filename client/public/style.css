@@ -19,10 +19,11 @@ a:link a:visited {
 }
 
 body {
+    background-image: './src/assets/WebsiteBackground.png';
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: var(--color-neutral);
+    color: #CCC5B9;
 }
 
 .transparent-background {

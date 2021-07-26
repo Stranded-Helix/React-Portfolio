@@ -94,7 +94,7 @@ main {
     color: #ffab40 !important;
 }
 
-.space-between {
+.space-around {
     display: flex;
     justify-content: space-around;
 }

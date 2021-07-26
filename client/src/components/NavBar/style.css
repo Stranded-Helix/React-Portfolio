@@ -19,6 +19,7 @@
 }
 
 .nav-size {
+    height: 90vh;
     height: 64px;
 }
 
@@ -84,6 +85,14 @@ main {
     font-size: 18px;
     margin: 0 auto;
     
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-margin {
+    margin: 2%;
 }
 
 /* .alias {

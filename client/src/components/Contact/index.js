@@ -13,7 +13,7 @@ export default function Contact() {
             <h4 class="title color-neutral">Contact Me</h4>
             <Card id="contact" className="card horizontal">
                 <div className="card-stacked blue-gradient">
-                    <div className="space-between">
+                    <div className="space-around">
                         <a className="card-link" href="https://www.linkedin.com/in/garrett-fite-07a74096/">Linkedin</a>
                         <a className="card-link" href="https://github.com/Stranded-Helix">GitHub</a>
                         <a className="card-link" href="mailto: garrett.fite@gmail.com">Garrett.fite@gmail.com</a>

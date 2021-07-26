@@ -94,6 +94,11 @@ main {
     color: #ffab40 !important;
 }
 
+.space-between {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* .alias {
 
 } */
