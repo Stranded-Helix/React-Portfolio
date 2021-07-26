@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import photo from '../../assets/Portfolio.jpg';
 import './style.css'
 import {Row , Col, Card, CardImg} from 'react-bootstrap';
+import resume from "../../assets/G.Fite Resume - 2021.pdf"
 
 
 export default function About() {
@@ -22,7 +23,7 @@ export default function About() {
                   kinds of video games, and flying planes.</p>
               </Card.Body>
               <div className="card-link blue-gradient">
-                <a className="resume-link modal-trigger" href="#modal-resume">Resume</a>
+                <a className="card-link" href={resume} download>Resume</a>
               </div>
             </Card>
           </Col>
